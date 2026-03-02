@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{02AC4862-8DAA-4A3A-9339-D3F4A98466CD}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="3D-sfx" ID="{02AC4862-8DAA-4A3A-9339-D3F4A98466CD}" PersistMode="Standalone">
+			<ChildrenList>
+				<PropertyContainer Name="piano" ID="{777C0306-7024-4816-A334-308A5D6C9F43}" ShortID="69318341">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="att-25M" ID="{05B20465-547E-4DC1-92C0-4143CFAB817B}" WorkUnitID="{270288F9-5CD9-4374-98D6-91054BB7FE35}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6643BB8-5DBF-47D4-B552-D976F3239EBA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CDF2682-F10F-49DF-BEA1-D1D2AEB3DDCC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="mixkit-melodical-flute-music-notification-2310" ID="{18FC27B6-DFBA-4CF9-8315-6CF1AC5574FB}" ShortID="364255459">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="att-25M" ID="{05B20465-547E-4DC1-92C0-4143CFAB817B}" WorkUnitID="{270288F9-5CD9-4374-98D6-91054BB7FE35}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C6643BB8-5DBF-47D4-B552-D976F3239EBA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6CDF2682-F10F-49DF-BEA1-D1D2AEB3DDCC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mixkit-melodical-flute-music-notification-2310" ID="{9EA42AA6-915D-44E1-95DF-43F1CC567EE6}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.40679765912132"/>
+										<Property Name="LoopEnd" Type="Real64" Value="3.31249504884943"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>mixkit-melodical-flute-music-notification-2310.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="975153141"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="mixkit-melodical-flute-music-notification-2310" ID="{9EA42AA6-915D-44E1-95DF-43F1CC567EE6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</PropertyContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Path for our own code (to be analyzed) -->
+    <Compile Include="Assets/Scripts/**/*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- StyleCop Analyzer -->
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.507" PrivateAssets="all" />
+  </ItemGroup>
+
+</Project>

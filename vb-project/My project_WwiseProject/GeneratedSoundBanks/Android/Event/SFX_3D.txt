@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2822524704	SFX_3D			\Default Work Unit\SFX_3D	
+

@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2822524704",
+    "Type": "Event",
+    "GUID": "{4C06B713-26CF-43F2-A7B7-A629A81FB1A4}",
+    "Language": "SFX",
+    "Hash": "{BD961797-756E-70AC-4C80-E78AA8EC37F8}",
+    "ObjectPath": "SFX_3D",
+    "ShortName": "SFX_3D",
+    "Path": "Event/SFX_3D.bnk",
+    "Media": [
+     {
+      "Id": "975153141",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "mixkit-melodical-flute-music-notification-2310.wav",
+      "Path": "Media/975153141.wem",
+      "CachePath": "AA/{AAAA6A30-546D-5C7A-3BB8-2C53778CC11E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2822524704",
+      "Name": "SFX_3D",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_3D",
+      "GUID": "{4C06B713-26CF-43F2-A7B7-A629A81FB1A4}",
+      "MaxAttenuation": "25",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "975153141"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5BF6A876-B7E7-4FBF-52EB-AE5484E8C981}"
+ }
+}

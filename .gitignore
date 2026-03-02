@@ -1,0 +1,9 @@
+Library/
+Temp/
+*.dSYM/
+vb-project/Library/
+vb-project/Temp/
+Logs/
+UserSettings/
+vb-project/Library/
+vb-project/Temp/

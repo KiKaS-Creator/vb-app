@@ -1,0 +1,14 @@
+{
+ "PluginInfo": {
+  "Platform": "Android",
+  "BasePlatform": "Android",
+  "PluginLibs": [
+   {
+    "LibName": "System",
+    "LibId": "11403271",
+    "Type": "AudioDevice"
+   }
+  ],
+  "FileHash": "{95B8358C-7018-CE58-A83D-1F4316B5709C}"
+ }
+}

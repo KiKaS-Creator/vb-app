@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D4731BE6-07A2-4D99-A5E2-95F99CA6A98B}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{D4731BE6-07A2-4D99-A5E2-95F99CA6A98B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="SFX_3D" ID="{4C06B713-26CF-43F2-A7B7-A629A81FB1A4}">
+					<ChildrenList>
+						<Action Name="" ID="{6E728B24-D05A-48B0-900A-A50531A62F6F}" ShortID="643515621">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mixkit-melodical-flute-music-notification-2310" ID="{18FC27B6-DFBA-4CF9-8315-6CF1AC5574FB}" WorkUnitID="{02AC4862-8DAA-4A3A-9339-D3F4A98466CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="stop" ID="{AAF50C40-2590-4B5D-B506-4658F75DA057}">
+					<ChildrenList>
+						<Action Name="" ID="{3FD3ED93-4853-4C4F-9600-327ACE1DBC8D}" ShortID="403732640">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mixkit-melodical-flute-music-notification-2310" ID="{18FC27B6-DFBA-4CF9-8315-6CF1AC5574FB}" WorkUnitID="{02AC4862-8DAA-4A3A-9339-D3F4A98466CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

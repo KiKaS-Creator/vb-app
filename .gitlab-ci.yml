@@ -1,0 +1,41 @@
+stages:
+  - lint
+  - analyze
+
+# =======================
+#        LINT
+# =======================
+
+.base_pre-commit:
+  stage: lint
+  image: python:3.11
+  before_script:
+    - pip install pre-commit
+
+lint_trailing_whitespace:
+  extends: .base_pre-commit
+  script:
+    - pre-commit run trailing-whitespace --all-files
+
+lint_end_of_file_fixer:
+  extends: .base_pre-commit
+  script:
+    - pre-commit run end-of-file-fixer --all-files
+
+# =======================
+#        ANALYZE
+# =======================
+
+# runs StyleCop analysis on Unity Scripts (as defined in "CodeAnalysis.csproj")
+
+code_analysis:
+  stage: analyze
+  image: mcr.microsoft.com/dotnet/sdk:8.0
+  script:
+    - cd "My project"
+
+    - echo "Restoring NuGet packages for CodeAnalysis.csproj..."
+    - dotnet restore CodeAnalysis.csproj
+
+    - echo "Running Roslyn analyzers..."
+    - dotnet build CodeAnalysis.csproj --no-incremental -warnaserror
