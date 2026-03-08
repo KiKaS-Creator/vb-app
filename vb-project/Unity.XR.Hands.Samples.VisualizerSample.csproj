@@ -605,11 +605,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="NAudio">
-      <HintPath>Library\PackageCache\com.pfc.jp.keijiro.klak.ndi@eeb37759384f\Runtime\Asio\Plugins\NAudio.dll</HintPath>
+      <HintPath>Packages\com.pfc.jp.keijiro.klak.ndi\Runtime\Asio\Plugins\NAudio.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="NAudio.Asio">
-      <HintPath>Library\PackageCache\com.pfc.jp.keijiro.klak.ndi@eeb37759384f\Runtime\Asio\Plugins\NAudio.Asio.dll</HintPath>
+      <HintPath>Packages\com.pfc.jp.keijiro.klak.ndi\Runtime\Asio\Plugins\NAudio.Asio.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
@@ -625,11 +625,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="NAudio.WinMM">
-      <HintPath>Library\PackageCache\com.pfc.jp.keijiro.klak.ndi@eeb37759384f\Runtime\Asio\Plugins\NAudio.WinMM.dll</HintPath>
+      <HintPath>Packages\com.pfc.jp.keijiro.klak.ndi\Runtime\Asio\Plugins\NAudio.WinMM.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="NAudio.Wasapi">
-      <HintPath>Library\PackageCache\com.pfc.jp.keijiro.klak.ndi@eeb37759384f\Runtime\Asio\Plugins\NAudio.Wasapi.dll</HintPath>
+      <HintPath>Packages\com.pfc.jp.keijiro.klak.ndi\Runtime\Asio\Plugins\NAudio.Wasapi.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Hashing">
@@ -637,7 +637,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="NAudio.Midi">
-      <HintPath>Library\PackageCache\com.pfc.jp.keijiro.klak.ndi@eeb37759384f\Runtime\Asio\Plugins\NAudio.Midi.dll</HintPath>
+      <HintPath>Packages\com.pfc.jp.keijiro.klak.ndi\Runtime\Asio\Plugins\NAudio.Midi.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
@@ -649,7 +649,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="NAudio.Core">
-      <HintPath>Library\PackageCache\com.pfc.jp.keijiro.klak.ndi@eeb37759384f\Runtime\Asio\Plugins\NAudio.Core.dll</HintPath>
+      <HintPath>Packages\com.pfc.jp.keijiro.klak.ndi\Runtime\Asio\Plugins\NAudio.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">

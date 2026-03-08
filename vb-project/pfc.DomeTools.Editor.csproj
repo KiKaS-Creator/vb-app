@@ -1134,14 +1134,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Klak.Ndi.Runtime">
-      <HintPath>Library\ScriptAssemblies\Klak.Ndi.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Klak.Ndi.Editor">
-      <HintPath>Library\ScriptAssemblies\Klak.Ndi.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
@@ -1161,6 +1153,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="pfc.DomeTools.csproj" />
+    <ProjectReference Include="Klak.Ndi.Runtime.csproj" />
+    <ProjectReference Include="Klak.Ndi.Editor.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

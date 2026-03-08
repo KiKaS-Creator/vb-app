@@ -635,11 +635,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="NAudio">
-      <HintPath>Library\PackageCache\com.pfc.jp.keijiro.klak.ndi@eeb37759384f\Runtime\Asio\Plugins\NAudio.dll</HintPath>
+      <HintPath>Packages\com.pfc.jp.keijiro.klak.ndi\Runtime\Asio\Plugins\NAudio.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="NAudio.Asio">
-      <HintPath>Library\PackageCache\com.pfc.jp.keijiro.klak.ndi@eeb37759384f\Runtime\Asio\Plugins\NAudio.Asio.dll</HintPath>
+      <HintPath>Packages\com.pfc.jp.keijiro.klak.ndi\Runtime\Asio\Plugins\NAudio.Asio.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
@@ -655,11 +655,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="NAudio.WinMM">
-      <HintPath>Library\PackageCache\com.pfc.jp.keijiro.klak.ndi@eeb37759384f\Runtime\Asio\Plugins\NAudio.WinMM.dll</HintPath>
+      <HintPath>Packages\com.pfc.jp.keijiro.klak.ndi\Runtime\Asio\Plugins\NAudio.WinMM.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="NAudio.Wasapi">
-      <HintPath>Library\PackageCache\com.pfc.jp.keijiro.klak.ndi@eeb37759384f\Runtime\Asio\Plugins\NAudio.Wasapi.dll</HintPath>
+      <HintPath>Packages\com.pfc.jp.keijiro.klak.ndi\Runtime\Asio\Plugins\NAudio.Wasapi.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Hashing">
@@ -667,7 +667,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="NAudio.Midi">
-      <HintPath>Library\PackageCache\com.pfc.jp.keijiro.klak.ndi@eeb37759384f\Runtime\Asio\Plugins\NAudio.Midi.dll</HintPath>
+      <HintPath>Packages\com.pfc.jp.keijiro.klak.ndi\Runtime\Asio\Plugins\NAudio.Midi.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
@@ -679,7 +679,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="NAudio.Core">
-      <HintPath>Library\PackageCache\com.pfc.jp.keijiro.klak.ndi@eeb37759384f\Runtime\Asio\Plugins\NAudio.Core.dll</HintPath>
+      <HintPath>Packages\com.pfc.jp.keijiro.klak.ndi\Runtime\Asio\Plugins\NAudio.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
@@ -1258,16 +1258,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.XR.Interaction.Toolkit.Analytics.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Analytics.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.XR.Interaction.Toolkit.Analytics.Hooks.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Analytics.Hooks.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
@@ -1318,10 +1310,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
@@ -1340,10 +1328,6 @@
     </Reference>
     <Reference Include="Unity.XR.Simulation">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Simulation.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Klak.Ndi.Runtime">
-      <HintPath>Library\ScriptAssemblies\Klak.Ndi.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
@@ -1430,10 +1414,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.007.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Klak.Ndi.Editor">
-      <HintPath>Library\ScriptAssemblies\Klak.Ndi.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Collections">
       <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
       <Private>False</Private>
@@ -1486,10 +1466,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.XR.AndroidOpenXR.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.XR.Interaction.Toolkit">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.XR.Management.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1531,11 +1507,15 @@
     <ProjectReference Include="AK.Wwise.Unity.ProjectDatabase.csproj" />
     <ProjectReference Include="AK.Wwise.Unity.Utilities.csproj" />
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj" />
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Analytics.Editor.csproj" />
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Analytics.Hooks.Editor.csproj" />
     <ProjectReference Include="AK.Wwise.Unity.API.csproj" />
     <ProjectReference Include="AK.Wwise.Unity.AddressableUpdater.csproj" />
     <ProjectReference Include="AK.Wwise.Unity.Timeline.Editor.csproj" />
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Editor.csproj" />
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj" />
     <ProjectReference Include="Ak.Wwise.Api.WAAPI.csproj" />
+    <ProjectReference Include="Klak.Ndi.Runtime.csproj" />
     <ProjectReference Include="AK.Wwise.Unity.AddressableInstaller.csproj" />
     <ProjectReference Include="AK.Wwise.Unity.API.WwiseTypes.csproj" />
     <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.csproj" />
@@ -1545,6 +1525,8 @@
     <ProjectReference Include="AK.Wwise.Unity.API.Editor.csproj" />
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.csproj" />
     <ProjectReference Include="AK.Wwise.Unity.Logging.csproj" />
+    <ProjectReference Include="Klak.Ndi.Editor.csproj" />
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj" />
     <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
